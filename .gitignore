@@ -1,0 +1,83 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Datasets & Large CSV Benchmark Files
+data/Chimeric_Dataset_Noisy/
+data/raw/
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.bmp
+*.csv
+*.ipynb
+OpenSourceIrisRecognition/evaluations/
+
+# Large Model Weights (>100MB - Excluded from standard Git)
+*.pt
+*.pyt
+*.pth
+*.onnx
+models/*.pt
+models/*.onnx
+models/DeepPrint_Tex_512/*.pyt
+OpenSourceIrisRecognition/**/models/
+
+# Cache Files & Pre-Computed Embeddings
+*.pkl
+*.pickle
+data/databases_and_cache/*.pkl
+
+# Databases & State
+*.db
+*.sqlite
+*.sqlite3
+data/databases_and_cache/*.db
+
+# Cryptographic Keys & Audit Logs
+pqc_keys.bin
+*.bin
+data/databases_and_cache/*.jsonl
+auth_audit_log.jsonl
+
+# Report Artifacts & Temporary Plots
+Concatenation Fusion Reports/*.png
+Concatenation Fusion Reports/raw_data/
+*.log
+
+# Project Structure Documentation
+files.md
